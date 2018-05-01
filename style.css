@@ -726,3 +726,16 @@ a .rating-C {
     padding: 0 6px;
     font-size: 11px;
 }
+.overview-sidebar {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    padding-left: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid #e6e6e6;
+}
+.page-sidebar-fixed {
+    width: 30%;
+    width: 300px;
+}
