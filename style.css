@@ -585,7 +585,7 @@ button:focus,
 }
 .overview {
     height: 720px;
-    background-color: #f3f3f3;
+
 }
 .overview-title {
     font-size: 16px;
@@ -752,4 +752,25 @@ a .rating-C {
     border-left-width: 1px;
     border-left-style: solid;
     border-left-color: rgb(230, 230, 230);
+}
+.page-limited {
+
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.page-with-sidebar {
+    display: flex;
+}
+.overview-main {
+    background-color: #ffffff;
+    transition: transform .5s ease,opacity .5s ease;
+}
+.page-main {
+    flex-grow: 1;
+}
+.overview-meta {
+    background-color: #ffffff;
 }
