@@ -642,6 +642,7 @@ button:focus,
 .overview-title {
     font-size: 16px;
     font-weight: 400;
+    margin-left: 40px;
 }
 .big-spacer-left {
     margin-left: 16px;
@@ -651,6 +652,7 @@ button:focus,
     margin-top: 10px;
     border: 1px solid #e6e6e6;
     background-color: #fff;
+    margin-left: 40px
 }
 .overview-domain-nutshell {
     flex: 3;
@@ -738,4 +740,16 @@ a .rating-C {
 .page-sidebar-fixed {
     width: 30%;
     width: 300px;
+}
+.overview-sidebar {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    padding-left: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 1px solid #e6e6e6;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(230, 230, 230);
 }
