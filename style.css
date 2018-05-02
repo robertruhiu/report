@@ -627,7 +627,7 @@ button:focus,
 }
 .overview-card-special {
     padding-bottom: 26px;
-    border-bottom: 1px solid #e6e6e6;
+
 }
 .overview-card {
     margin: 15px 0;
@@ -645,7 +645,7 @@ button:focus,
     margin-left: 40px;
 }
 .big-spacer-left {
-    margin-left: 16px;
+    margin-left: 561px;
 }
 .overview-domain-panel {
     display: flex;
@@ -773,4 +773,35 @@ a .rating-C {
 }
 .overview-meta {
     background-color: #ffffff;
+}
+.card1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+
+    border-radius: .01rem;
+    margin-top: 50px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 50px;
+}
+.nav-link {
+    display: block;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-bottom-color: #4b9fd5;
 }
